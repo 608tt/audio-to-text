@@ -35,8 +35,17 @@ made from XML parsing alone.
 
 The attempted Chrome viewport override did not change the measured 1470-pixel
 viewport. Responsive CSS is included, but this is not recorded as a successful
-phone-layout or mobile-recognition test. The hosted deployment is still being
-completed and will be recorded after its checks.
+phone-layout or mobile-recognition test.
+
+## Hosted deployment
+
+GitHub Pages: https://608tt.github.io/audio-to-text/
+
+The public page was opened in Chrome and actually transcribed the generated
+English MP3 in CPU/tiny mode. Its result matched the local production preview.
+Both the 11-test/build workflow and Pages build/deploy workflow succeeded for
+the published source. The browser app's URL and worker/WASM paths were therefore
+verified on the real project Pages path, not just localhost.
 
 ## Limits
 
