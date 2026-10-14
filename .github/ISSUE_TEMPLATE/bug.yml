@@ -1,0 +1,21 @@
+name: Bug report
+description: A reproducible problem with transcription, audio decoding or exports
+body:
+  - type: textarea
+    attributes:
+      label: What happened?
+      description: Describe expected behavior and the observed error. Do not post private recordings.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Browser and device
+      placeholder: Chrome version, Windows/macOS/Linux, CPU/GPU mode
+  - type: input
+    attributes:
+      label: Recording and options
+      description: Format/codec, duration, language, quality and speaker mode. No private filenames or content needed.
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      description: Use synthetic or appropriately licensed audio if a sample is needed.

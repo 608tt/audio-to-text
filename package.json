@@ -1,0 +1,23 @@
+{
+  "name": "audio-to-text",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Free browser-local MP3 and M4A transcription to TXT, DOCX and Markdown.",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "4.3.1",
+    "fflate": "0.8.3"
+  },
+  "devDependencies": {
+    "vite": "6.4.4"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
